@@ -211,9 +211,31 @@ namespace ConexionGestinoPedidos
             MuestraPedidos();
         }
 
-        private void lstClientes_MouseDown(object sender, MouseButtonEventArgs e)
+        private void BtnUpd_Click(object sender, RoutedEventArgs e)
         {
 
+            Actualiza ventanaUpd = new Actualiza();
+            ventanaUpd.Show();
+
+            try
+            {
+                string consulta = "SELECT NOMBRE FROM CLIENTE WHERE Id=@clienteId";
+                SqlCommand miSqlComando = new SqlCommand(consulta, miConexionSql);
+                SqlDataAdapter miAdaptadorSql = new SqlDataAdapter(miSqlComando);
+                using (miAdaptadorSql)
+                {
+                    miSqlComando.Parameters.AddWithValue("@clienteId", lstClientes.SelectedValue);
+                    DataTable clienteTabla = new DataTable();
+                    miAdaptadorSql.Fill(clienteTabla);
+                    ventanaUpd.txtClienteUpd.Text = clienteTabla.Rows[0]["nombre"].ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
+            
         }
     }
 }

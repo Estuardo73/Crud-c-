@@ -14,3 +14,5 @@ C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedid
 C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\ConexionGestinoPedidos.exe
 C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\ConexionGestinoPedidos.pdb
 C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\Actualiza.g.cs
+C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\Actualiza.baml
