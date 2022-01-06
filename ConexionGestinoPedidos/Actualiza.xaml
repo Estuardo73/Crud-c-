@@ -9,7 +9,7 @@
     <Grid>
         <Label Content="Nombre de cliente:" HorizontalAlignment="Left" Margin="30,35,0,0" VerticalAlignment="Top"/>
         <TextBox Name="txtClienteUpd" HorizontalAlignment="Left" Height="23" Margin="165,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="215"/>
-        <Button  Name="btnAct" Content="Update Datos" HorizontalAlignment="Left" Margin="415,40,0,0" VerticalAlignment="Top" Width="95"/>
+        <Button  Name="btnAct" Content="Update Datos" HorizontalAlignment="Left" Margin="415,40,0,0" VerticalAlignment="Top" Width="95" Foreground="BlueViolet" Click="btnAct_Click" />
 
     </Grid>
 </Window>

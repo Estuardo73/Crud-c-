@@ -1,7 +1,6 @@
 C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\bin\Debug\ConexionGestinoPedidos.exe.config
 C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\bin\Debug\ConexionGestinoPedidos.exe
 C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\bin\Debug\ConexionGestinoPedidos.pdb
-C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\ConexionGestinoPedidos.csproj.AssemblyReference.cache
 C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\MainWindow.g.cs
 C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\App.g.cs
 C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\ConexionGestinoPedidos_MarkupCompile.cache
@@ -13,6 +12,6 @@ C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedid
 C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\ConexionGestinoPedidos.csproj.CoreCompileInputs.cache
 C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\ConexionGestinoPedidos.exe
 C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\ConexionGestinoPedidos.pdb
-C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\Actualiza.g.cs
 C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\Actualiza.baml
+C:\Users\Estuardo Lopez\source\repos\ConexionGestinoPedidos\ConexionGestinoPedidos\obj\Debug\ConexionGestinoPedidos.csproj.AssemblyReference.cache

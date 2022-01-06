@@ -16,9 +16,6 @@ using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
 
-
-
-
 namespace ConexionGestinoPedidos
 {
     /// <summary>
@@ -214,8 +211,9 @@ namespace ConexionGestinoPedidos
         private void BtnUpd_Click(object sender, RoutedEventArgs e)
         {
 
-            Actualiza ventanaUpd = new Actualiza();
+            Actualiza ventanaUpd = new Actualiza((int)lstClientes.SelectedValue);
             ventanaUpd.Show();
+            
 
             try
             {
