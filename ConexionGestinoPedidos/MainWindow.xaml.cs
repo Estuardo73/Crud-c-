@@ -55,9 +55,7 @@ namespace ConexionGestinoPedidos
             } catch (Exception e)
             {
                 MessageBox.Show(e.ToString());
-            }
-
-            
+            }           
 
         }
 
@@ -210,11 +208,8 @@ namespace ConexionGestinoPedidos
 
         private void BtnUpd_Click(object sender, RoutedEventArgs e)
         {
-
             Actualiza ventanaUpd = new Actualiza((int)lstClientes.SelectedValue);
-            ventanaUpd.Show();
-            
-
+            /* ventanaUpd.Show();  */
             try
             {
                 string consulta = "SELECT NOMBRE FROM CLIENTE WHERE Id=@clienteId";
@@ -231,9 +226,9 @@ namespace ConexionGestinoPedidos
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
-            }
-
-            
+            }            
+            ventanaUpd.ShowDialog();
+            MuestraClientes();            
         }
     }
 }
